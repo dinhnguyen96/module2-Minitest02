@@ -69,7 +69,7 @@ public class Product {
     }
     public double promotionMoneyCaculator()
     {
-        return productPrice * ((100 - productPromotion)/100);
+        return productPrice - (productPrice *(100-productPromotion/100));
     }
 
 }
